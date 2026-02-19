@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <h2>Student Name Manager (localStorage)</h2>
+
+        <input type="text" id="studentName" placeholder="Enter student name">
+
+        <div class="buttons">
+            <button onclick="saveName()">Save</button>
+            <button onclick="showName()">Show</button>
+            <button id="updateBtn" onclick="updateName()">Update</button>
+            <button id="deleteBtn" onclick="deleteName()">Delete</button>
+            <button onclick="clearAll()">Clear All</button>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
